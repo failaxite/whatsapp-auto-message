@@ -1,0 +1,7 @@
+{
+    "welcome_message": "Bienvenue dans mon messager automatique WhatsApp",
+    "github_link": "par www.github.com/failaxite - https://discord.gg/AFWgmHb4PJ",
+    "message_sent": "Message envoyé à : {number}",
+    "failed_to_send": "Échec de l'envoi du message à : {number}, réessai ({retry}/{max_retries})",
+    "found_numbers": "Nous avons trouvé {total_number} numéros dans le fichier"
+}
