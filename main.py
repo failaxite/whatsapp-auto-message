@@ -8,6 +8,23 @@ from time import sleep
 from urllib.parse import quote
 import os
 
+def load_language_config(language):
+    with open("config.json", "r") as config_file:
+        config_data = json.load(config_file)
+        return config_data.get(language, {})
+
+def load_translation(language):
+    try:
+        with open(f"translations/{language}.json", "r") as translation_file:
+            return json.load(translation_file)
+    except FileNotFoundError:
+        return {}
+
+def set_language():
+    with open("config.json", "r") as config_file:
+        config_data = json.load(config_file)
+        return config_data.get("language", "en_US")
+
 options = Options()
 options.add_experimental_option("excludeSwitches", ["enable-logging"])
 options.add_argument("--profile-directory=Default")
