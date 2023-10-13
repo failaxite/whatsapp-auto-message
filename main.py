@@ -45,6 +45,17 @@ class style():
     UNDERLINE = '\033[4m'
     RESET = '\033[0m'
 
+print(style.BLUE)
+print("**********************************************************")
+print("**********************************************************")
+print("*****                                               ******")
+print(f"***** {translations.get('welcome_message')} ******")
+print(f"***** {translations.get('github_link')} ******")
+print("*****                                               ******")
+print("**********************************************************")
+print("**********************************************************")
+print(style.RESET)
+
 f = open("msg.txt", "r", encoding="utf8")
 message = f.read()
 f.close()
