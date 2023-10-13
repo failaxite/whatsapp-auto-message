@@ -79,7 +79,7 @@ f.close()
 total_number = len(numbers)
 print(style.RED + translations.get('found_numbers').format(total_number=total_number) + style.RESET)
 
-delay = 30
+delay = 5
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 print(translations.get('whatsapp_web_login_prompt'))
@@ -100,7 +100,7 @@ for idx, number in enumerate(numbers):
                     send_button = WebDriverWait(driver, delay).until(EC.element_to_be_clickable((By.XPATH, "//span[@data-icon='send']")))
                     send_button.click()
                     sent = True
-                    sleep(5)
+                    sleep(1)
                     print(style.GREEN + translations.get('message_sent').format(number=number) + style.RESET)
                 except Exception as e:
                     print(style.RED + translations.get('failed_to_send').format(number=number, retry=i+1, max_retries=3))
@@ -110,3 +110,4 @@ for idx, number in enumerate(numbers):
         print(style.RED + translations.get('failed_to_send') + str(e) + style.RESET)
 
 driver.close()
+
