@@ -72,7 +72,7 @@ for line in f.read().splitlines():
 		numbers.append(line.strip())
 f.close()
 total_number=len(numbers)
-print(style.RED + 'We found ' + str(total_number) + ' numbers in the file' + style.RESET)
+print(style.RED + translations.get('found_numbers', 'We found {total_number} numbers in the file').format(total_number=total_number) + style.RESET)
 delay = 30
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
@@ -95,11 +95,11 @@ for idx, number in enumerate(numbers):
                     send_button.click()
                     sent = True
                     sleep(5)
-                    print(style.GREEN + {translations.get('message_sent')}+ style.RESET)
+                    print(style.GREEN + {translations.get('message_sent')} + style.RESET)
 				except Exception as e:
 					print(style.RED + f"\nFailed to send message to: {number}, retry ({i+1}/3)")
 					print("Make sure your phone and computer is connected to the internet.")
 					print("If there is an alert, please dismiss it." + style.RESET)
 	except Exception as e:
-		print(style.RED + 'Failed to send message to ' + number + str(e) + style.RESET)
+		print(style.RED + {translations.get('failed_to_send')} + str(e) + style.RESET)
 driver.close()
