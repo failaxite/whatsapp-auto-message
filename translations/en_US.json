@@ -1,0 +1,12 @@
+{
+    "welcome_message": "Welcome to my WhatsApp automatic messenger",
+    "github_link": "by www.github.com/failaxite - https://discord.gg/AFWgmHb4PJ",
+    "message_sent": "Message sent to: {number}",
+    "failed_to_send": "Failed to send the message to: {number}, retry ({retry}/{max_retries})",
+    "found_numbers": "We found {total_number} numbers in the file",
+    "internet_connection_issue": "Make sure your phone and computer are connected to the internet",
+    "alert_dismissal": "If there is an alert, please dismiss it",
+    "sending_message": "{current}/{total} => Sending message to: {number}",
+    "whatsapp_web_login_prompt": "AFTER completing the WhatsApp Web login and your chats are visible, press Enter...",
+    "message_display": "This is your message:"
+}

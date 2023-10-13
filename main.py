@@ -56,7 +56,7 @@ print("**********************************************************")
 print("**********************************************************")
 print(style.RESET)
 
-f = open("msg.txt", "r", encoding="utf8")
+f = open("data/msg.txt", "r", encoding="utf8")
 message = f.read()
 f.close()
 
@@ -66,7 +66,7 @@ print("\n" + style.RESET)
 message = quote(message)
 
 numbers = []
-f = open("phones.txt", "r")
+f = open("data/phones.txt", "r")
 for line in f.read().splitlines():
 	if line.strip() != "":
 		numbers.append(line.strip())
