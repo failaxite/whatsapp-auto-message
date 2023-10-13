@@ -60,7 +60,7 @@ f = open("msg.txt", "r", encoding="utf8")
 message = f.read()
 f.close()
 
-print(style.YELLOW + '\nThis is your message-')
+print(style.YELLOW + '\n' + message_display)
 print(style.GREEN + message)
 print("\n" + style.RESET)
 message = quote(message)
@@ -78,12 +78,12 @@ delay = 30
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
 print('Once your browser opens up sign in to web whatsapp')
 driver.get('https://web.whatsapp.com')
-input(style.MAGENTA + "AFTER logging into Whatsapp Web is complete and your chats are visible, press ENTER..." + style.RESET)
+input(style.MAGENTA + whatsapp_web_login_prompt + style.RESET)
 for idx, number in enumerate(numbers):
 	number = number.strip()
 	if number == "":
 		continue
-	print(style.YELLOW + '{}/{} => Sending message to {}.'.format((idx+1), total_number, number) + style.RESET)
+	print(style.YELLOW + sending_message.format(current=(idx+1), total=total_number, number=number) + style.RESET)
 	try:
 		url = 'https://web.whatsapp.com/send?phone=' + number + '&text=' + message
 		sent = False
@@ -97,9 +97,9 @@ for idx, number in enumerate(numbers):
                     sleep(5)
                     print(style.GREEN + {translations.get('message_sent')} + style.RESET)
 				except Exception as e:
-					print(style.RED + f"\nFailed to send message to: {number}, retry ({i+1}/3)")
-					print("Make sure your phone and computer is connected to the internet.")
-					print("If there is an alert, please dismiss it." + style.RESET)
+					print(style.RED + f"\n{error_messages.get('failed_to_send')}")
+					print(error_messages.get('internet_connection_issue'))
+                    print(error_messages.get('alert_dismissal') + style.RESET)
 	except Exception as e:
 		print(style.RED + {translations.get('failed_to_send')} + str(e) + style.RESET)
 driver.close()

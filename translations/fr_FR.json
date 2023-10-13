@@ -3,5 +3,10 @@
     "github_link": "par www.github.com/failaxite - https://discord.gg/AFWgmHb4PJ",
     "message_sent": "Message envoyé à : {number}",
     "failed_to_send": "Échec de l'envoi du message à : {number}, réessai ({retry}/{max_retries})",
-    "found_numbers": "Nous avons trouvé {total_number} numéros dans le fichier"
+    "found_numbers": "Nous avons trouvé {total_number} numéros dans le fichier",
+    "internet_connection_issue": "Assurez-vous que votre téléphone et votre ordinateur sont connectés à Internet.",
+    "alert_dismissal": "Si une alerte s'affiche, veuillez la fermer.",
+    "sending_message": "{current}/{total} => Envoi du message à : {number}",
+    "whatsapp_web_login_prompt": "APRÈS avoir terminé la connexion à WhatsApp Web et que vos discussions sont visibles, appuyez sur ENTRÉE...",
+    "message_display": "Ceci est votre message :"
 }
