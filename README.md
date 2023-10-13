@@ -70,7 +70,7 @@ py main.py or python3 main.py or python main.py
 - 🇸🇦 Arabe (Arabic)
 - 🇩🇪 Allemand (German)
 - 🇪🇸 Espagnol (Spanish)
-- 🇫🇷 Français (French)
+- :flag_fr:  Français (French)
 - 🇮🇹 Italien (Italian)
 - 🇯🇵 Japonais (Japanese)
 - 🇧🇷 Portugais brésilien (Brazilian Portuguese)
