@@ -4,10 +4,14 @@ Hi there! Here's my new project! A Python application that will allow you to aut
 
 ## 📁 Content of the projet
 
-🌐 +10 Languages prit en charge de multiples langues pour toucher un public mondial.
-📂 Gestion propre des fichiers de messages et de numéros de téléphone.
-🚀 Envoi rapide et fiable de messages WhatsApp.
-🔧 Confguration totale possible par l'utilisateur
+🌐 +10 Supported Languages for reaching a global audience.
+<br>
+📂 Clean management of message and phone number files.
+<br>
+🚀 Fast and reliable WhatsApp message delivery.
+<br>
+🔧 User-configurable settings for complete control.
+<br>
 
 ## 🎁 Support ?
 
