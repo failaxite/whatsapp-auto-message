@@ -1,0 +1,12 @@
+{
+    "welcome_message": "WhatsApp自動メッセンジャーへようこそ",
+    "github_link": "www.github.com/failaxite から - https://discord.gg/AFWgmHb4PJ",
+    "message_sent": "メッセージを {number} に送信しました",
+    "failed_to_send": "メッセージの送信に失敗しました： {number}、リトライ ({retry}/{max_retries})",
+    "found_numbers": "ファイル内で {total_number} 件の番号を見つけました",
+    "internet_connection_issue": "お使いの携帯電話とコンピュータがインターネットに接続されていることを確認してください",
+    "alert_dismissal": "アラートが表示された場合、閉じてください",
+    "sending_message": "{current}/{total} => {number} へのメッセージを送信中",
+    "whatsapp_web_login_prompt": "WhatsApp Webへのログインが完了し、チャットが表示されたら、Enterキーを押してください",
+    "message_display": "これがあなたのメッセージです："
+}

@@ -1,0 +1,12 @@
+{
+    "welcome_message": "مرحبًا بك في برنامج الرسائل التلقائي لواتساب",
+    "github_link": "بواسطة www.github.com/failaxite - https://discord.gg/AFWgmHb4PJ",
+    "message_sent": "تم إرسال الرسالة إلى: {number}",
+    "failed_to_send": "فشل في إرسال الرسالة إلى: {number}، محاولة ({retry}/{max_retries})",
+    "found_numbers": "لقد عثرنا على {total_number} أرقام في الملف",
+    "internet_connection_issue": "تأكد من أن هاتفك وكمبيوترك متصلين بالإنترنت",
+    "alert_dismissal": "إذا ظهر تحذير، يُرجى تجاهله",
+    "sending_message": "{current}/{total} => إرسال رسالة إلى {number}",
+    "whatsapp_web_login_prompt": "بعد الانتهاء من تسجيل الدخول إلى WhatsApp Web ورؤية محادثاتك، اضغط على Enter...",
+    "message_display": "هذه رسالتك:"
+}

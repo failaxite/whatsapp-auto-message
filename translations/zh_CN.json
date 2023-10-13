@@ -1,0 +1,12 @@
+{
+    "welcome_message": "欢迎使用我的WhatsApp自动消息传递程序",
+    "github_link": "由www.github.com/failaxite提供 - https://discord.gg/AFWgmHb4PJ",
+    "message_sent": "消息已发送至：{number}",
+    "failed_to_send": "无法向 {number} 发送消息，重试 ({retry}/{max_retries})",
+    "found_numbers": "我们在文件中找到了 {total_number} 个号码",
+    "internet_connection_issue": "请确保您的手机和计算机已连接到互联网",
+    "alert_dismissal": "如果出现警报，请关闭它",
+    "sending_message": "{current}/{total} => 向 {number} 发送消息中",
+    "whatsapp_web_login_prompt": "登录WhatsApp Web并显示您的聊天后，请按Enter键...",
+    "message_display": "这是您的消息："
+}

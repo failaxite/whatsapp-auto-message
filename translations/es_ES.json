@@ -1,0 +1,12 @@
+{
+    "welcome_message": "Bienvenido a mi mensajero automático de WhatsApp",
+    "github_link": "por www.github.com/failaxite - https://discord.gg/AFWgmHb4PJ",
+    "message_sent": "Mensaje enviado a : {number}",
+    "failed_to_send": "Fallo al enviar el mensaje a : {number}, intento ({retry}/{max_retries})",
+    "found_numbers": "Encontramos {total_number} números en el archivo",
+    "internet_connection_issue": "Asegúrate de que tu teléfono y tu ordenador estén conectados a Internet",
+    "alert_dismissal": "Si aparece una alerta, ciérrala",
+    "sending_message": "{current}/{total} => Enviando mensaje a : {number}",
+    "whatsapp_web_login_prompt": "DESPUÉS de completar el inicio de sesión en WhatsApp Web y que tus chats estén visibles, presiona Enter...",
+    "message_display": "Este es tu mensaje:"
+}
