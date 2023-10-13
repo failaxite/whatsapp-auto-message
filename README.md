@@ -67,16 +67,16 @@ py main.py or python3 main.py or python main.py
 
 ## 🌳 Supported Languages
 
-- :saudi_arabia: 🇸🇦 Arabic
-- :de: 🇩🇪 German
-- :es: 🇪🇸 Spanish
-- :fr: 🇫🇷  French
-- :it: 🇮🇹 Italian
-- :jp: 🇯🇵 Japanese
-- :brazil: 🇧🇷 Brazilian Portuguese
-- :ru: 🇷🇺 Russian
-- :cn: 🇨🇳 Chinese
-- :us: 🇬🇧 English
+- :saudi_arabia: Arabic
+- :de: German
+- :es: Spanish
+- :fr: French
+- :it: Italian
+- :jp: Japanese
+- :brazil: Brazilian Portuguese
+- :ru: Russian
+- :cn: Chinese
+- :us: English
 
 ### Expand Language Support 🌍
 
