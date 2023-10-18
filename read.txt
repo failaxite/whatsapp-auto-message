@@ -1,0 +1,18 @@
+To not have the automatic update of Chrome:
+
+MACOS: https://youtu.be/hXP06D8Ixtw?si=XhL7CF-i_JPmxxS1
+Windows: https://youtu.be/0akDbpgdHVQ?si=T2X3k2hEe_3EjuCg
+
+Chrome Installer (111.0 Version) :
+
+MACOS: https://google-chrome.en.uptodown.com/mac/download/95245315
+Windows : https://google-chrome.fr.uptodown.com/windows/telecharger/95245195
+
+Install python & pip (for run the application)
+
+MACOS: Open requirements.app (with administrator permissions)
+Windows: Open requirements.bat (with administrator permissions)
+
+Launch python script:
+
+Just open the python file
