@@ -23,7 +23,7 @@ We're here to help and ensure your experience is as smooth as possible. If you h
 
 - **Discord:** For personalized inquiries or private assistance, feel free to reach out to us via DM on Discord. You can find us at Discord handle: `failaxite`.
 
-- **[Discord](https://discord.gg/AFWgmHb4PJ):** For more personalized inquiries or private assistance, join our Discord server [here](https://discord.gg/AFWgmHb4PJ). We aim to respond within 24 hours.
+- **[Discord](https://discord.gg/AjTZKq2qHA):** For more personalized inquiries or private assistance, join our Discord server [here](https://discord.gg/AjTZKq2qHA). We aim to respond within 24 hours.
 
 Your input is gold to us, and we're excited to help you out and hear your feedback. Don't hesitate to reach out; we're just a message away!
 
